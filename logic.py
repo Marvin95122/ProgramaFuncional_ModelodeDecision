@@ -51,3 +51,4 @@ def calcular_mezcla_optima(d):
         "x2": value(x2),                #Cantidad optima de CC-8
         "ganancia_total": value(prob.objective) #Valor maximo de Z
     }
+# Descargar esta libreria y les funcione correctamente este es el codigo si ya tienen instalado el python py -m pip install pulp
