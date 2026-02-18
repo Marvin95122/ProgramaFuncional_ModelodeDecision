@@ -44,7 +44,7 @@ def calcular_mezcla_optima(d):
 
     #6.- Retorno de resultados
     #Empaquetamos el estado de la solucion y los valores encontrados
-    #para enviarlos al modulo de presentacion (outputs.py de Uriel).
+    #para enviarlos al modulo de presentacion (outputs.py de Nimsi).
     return {
         "status": prob.status,          #1 = optimo, -1 = Infactible
         "x1": value(x1),                #Cantidad optima de CC-7
