@@ -65,13 +65,27 @@ Para validar el correcto funcionamiento del algoritmo, puedes ingresar los sigui
 ---
 
 ## Lógica del Modelo
-El sistema traduce el problema de negocio a una función objetivo matemática:
+Para la formulación del problema, se propone el desarrollo de un modelo estándar de programación lineal (PL). 
 
-Z = c1(x1) + c2(x2)
+La estructura matemática de este modelo se divide en tres componentes principales:
 
-**Sujeto a las siguientes restricciones:**
-* a11(x1) + a12(x2) <= Labor Disponible
-* a21(x1) + a22(x2) <= Presupuesto Disponible
-* x1 >= Mínimo CC-7
-* x2 >= Mínimo CC-8
+**1. Variables de decisión:**
+Representan los elementos del sistema que pueden ser controlados para alcanzar el objetivo deseado.
+* $$X_1 = $$ Cantidad de unidades del producto CC-7 a producir.
+* $$X_2 = $$ Cantidad de unidades del producto CC-8 a producir.
+  
+**2. Variable de resultado (Función Objetivo):**
+Se define a $Z$ como el beneficio total esperado. El objetivo central del modelo es maximizar dicho beneficio, lo cual está dado por la siguiente función matemática:
 
+**$$Z = 8,000X_1 + 12,000X_2$$**
+
+**3. Variables no controlables (Restricciones del sistema):**
+El modelo está sujeto a diversas limitaciones operativas y de mercado que restringen la capacidad de producción:
+* Restricción de mano de obra: $300X_1 + 500X_2 \le 200,000$ (expresado en días laborables).
+* Restricción de presupuesto: $10,000X_1 + 15,000X_2 \le 8,000,000$ (expresado en dólares).
+* Requerimiento mínimo de mercado para CC-7: $X_1 \ge 100$ (expresado en unidades).
+* Requerimiento mínimo de mercado para CC-8: $X_2 \ge 200$ (expresado en unidades).
+  
+**Consideraciones adicionales:**
+
+Es importante destacar que el modelo contempla un cuarto componente de carácter implícito. Como es habitual en los modelos de programación lineal, existen variables intermedias internas que no se declaran de forma explícita en las ecuaciones principales, pero que interactúan en segundo plano con recursos como la mano de obra disponible.
