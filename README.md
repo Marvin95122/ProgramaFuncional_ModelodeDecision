@@ -77,6 +77,7 @@ Para replicar el caso de estudio y validar el algoritmo, ingresa los siguientes 
 | **Mínimo CC-8** | `200` | Restricción de Marketing |
 ---
 Resultados:
+
 Al comparar ambos escenarios, el Escenario A genera una utilidad significativamente mayor ($5,066,664 vs $4,880,000). Además, al verificar el presupuesto en el Escenario A ($10,000(333.33) + 15,000(200) = $6,333,300), vemos que no supera el límite de $8,000,000 de dólares.
 
 Por lo tanto, el resultado matemático óptimo que resuelve el problema es:
