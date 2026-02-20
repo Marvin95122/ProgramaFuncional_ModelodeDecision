@@ -50,18 +50,31 @@ Al ejecutar el programa, el DSS te guiará por tres pasos críticos:
 2. **Restricciones de Recursos:** Ingresa los límites de días de labor y el presupuesto financiero total.
 3. **Compromisos de Mercado:** Establece las cuotas mínimas que marketing exige producir.
 
-### Ejemplo de Prueba:
-Para validar el correcto funcionamiento del algoritmo, puedes ingresar los siguientes datos:
+## Ejemplo de Prueba: Caso de Estudio: MBI Corporation
 
-| Parámetro | Valor Sugerido |
-| :--- | :--- |
-| Utilidad CC-7 | 8000 |
-| Utilidad CC-8 | 12000 |
-| Límite Laboral | 250000 |
-| Presupuesto Total | 10000000 |
-| Min. CC-7 | 100 |
-| Min. CC-8 | 200 |
+Este sistema está configurado para resolver problemas de optimización lineal como el de **MBI Corporation** (Fuente: *Decision Support and Business Intelligence Systems*, Efraim Turban, Sección 4.9).
 
+### Descripción del Problema
+MBI Corporation necesita determinar la cantidad óptima de computadoras **CC-7** y **CC-8** a producir en su planta de Boston para maximizar las utilidades, sujeto a restricciones de mano de obra, materiales y requisitos de marketing.
+
+### Datos de Entrada para la Prueba
+Para replicar el caso de estudio y validar el algoritmo, ingresa los siguientes valores cuando el programa lo solicite:
+
+| Parámetro | Valor para MBI Corp. | Descripción |
+| :--- | :--- | :--- |
+| **Utilidad CC-7** | `8000` | Ganancia por unidad ($) |
+| **Utilidad CC-8** | `12000` | Ganancia por unidad ($) |
+| **---** | **---** | **---** |
+| **Req. Mano de Obra CC-7** | `300` | Días por unidad |
+| **Req. Mano de Obra CC-8** | `500` | Días por unidad |
+| **Límite Total Laboral** | `200000` | Capacidad máxima (días) |
+| **---** | **---** | **---** |
+| **Costo Material CC-7** | `10000` | Costo por unidad ($) |
+| **Costo Material CC-8** | `15000` | Costo por unidad ($) |
+| **Presupuesto Total** | `8000000` | Presupuesto mensual ($) |
+| **---** | **---** | **---** |
+| **Mínimo CC-7** | `100` | Restricción de Marketing |
+| **Mínimo CC-8** | `200` | Restricción de Marketing |
 ---
 
 ## Lógica del Modelo
