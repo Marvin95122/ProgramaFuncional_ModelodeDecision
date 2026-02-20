@@ -5,9 +5,9 @@
 
 ## Colaboradores
 * **Cruz Sanchez Jhoan Marvin** - *Desarrollo de Lógica*
-* **Compañero 1** - *Interfaz de Usuario y Captura Dinámica*
-* **Compañero 2** - *Interpretación de Resultados y Salida*
-* **Espinoza de la Rosa Uriel** - *Desarrollo de Lógica y Documentación*
+* **Jose Sebastian Jafet** - *Interfaz de Usuario y Captura Dinámica*
+* **Nimsi** - *Interpretación de Resultados y Salida*
+* **Espinoza de la Rosa Uriel** - *Desarrollo de README y Documentación*
 
 ---
 
