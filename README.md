@@ -8,7 +8,7 @@
 * **Jose Sebastian Jafet** - *Interfaz de Usuario y Captura Dinámica*
 * **Nimsi** - *Interpretación de Resultados y Salida*
 * **Espinoza de la Rosa Uriel** - *Desarrollo de README y Documentación*
-
+* **Juárez Monjaraz Griselda Itzel** - *Desarrollo de README y Documentación*
 ---
 
 ## Descripción del Proyecto
@@ -54,10 +54,10 @@ Al ejecutar el programa, el DSS te guiará por tres pasos críticos:
 
 Este sistema está configurado para resolver problemas de optimización lineal como el de **MBI Corporation** (Fuente: *Decision Support and Business Intelligence Systems*, Efraim Turban, Sección 4.9).
 
-### Descripción del Problema
+## Descripción del Problema
 MBI Corporation necesita determinar la cantidad óptima de computadoras **CC-7** y **CC-8** a producir en su planta de Boston para maximizar las utilidades, sujeto a restricciones de mano de obra, materiales y requisitos de marketing.
 
-### Datos de Entrada para la Prueba
+## Datos de Entrada para la Prueba
 Para replicar el caso de estudio y validar el algoritmo, ingresa los siguientes valores cuando el programa lo solicite:
 
 | Parámetro | Valor para MBI Corp. | Descripción |
@@ -76,6 +76,14 @@ Para replicar el caso de estudio y validar el algoritmo, ingresa los siguientes 
 | **Mínimo CC-7** | `100` | Restricción de Marketing |
 | **Mínimo CC-8** | `200` | Restricción de Marketing |
 ---
+Resultados:
+Al comparar ambos escenarios, el Escenario A genera una utilidad significativamente mayor ($5,066,664 vs $4,880,000). Además, al verificar el presupuesto en el Escenario A ($10,000(333.33) + 15,000(200) = $6,333,300), vemos que no supera el límite de $8,000,000 de dólares.
+
+Por lo tanto, el resultado matemático óptimo que resuelve el problema es:
+* Producir: 333.33 unidades del modelo CC-7.
+* Producir: 200 unidades del modelo CC-8.
+* Utilidad Máxima Proyectada: $5,066,666.64 
+
 
 ## Lógica del Modelo
 Para la formulación del problema, se propone el desarrollo de un modelo estándar de programación lineal (PL). 
