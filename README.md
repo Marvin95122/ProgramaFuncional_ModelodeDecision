@@ -4,7 +4,7 @@
 **Institución:** Instituto Tecnológico de Oaxaca  
 
 ## Colaboradores
-* **Espinoza de la Rosa Uriel** - *Desarrollo de Lógica y Documentación*
+* **Cruz Sanchez Jhoan Marvin** - *Desarrollo de Lógica*
 * **Compañero 1** - *Interfaz de Usuario y Captura Dinámica*
 * **Compañero 2** - *Interpretación de Resultados y Salida*
 * **Espinoza de la Rosa Uriel** - *Desarrollo de Lógica y Documentación*
